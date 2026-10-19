@@ -1,0 +1,34 @@
+﻿# IDE
+.idea/
+
+# CMake и сборка
+cmake-build-*/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+Testing/
+
+# Скомпилированные файлы
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.pdb
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Local coursework materials
+_lab.zip
+_lab_docx/
+_lab_reqs.txt
